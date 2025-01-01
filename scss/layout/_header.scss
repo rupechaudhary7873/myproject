@@ -1,0 +1,89 @@
+header {
+    background: rgb(83, 172, 126);
+    height: 600px;
+
+    .top-header {
+        .navigation-bar {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 100px;
+            .left{
+                a{
+                    font-size: 30px;
+                    font-family: "Irish Grover", serif;
+                    color: $primary-color;
+                    font-weight: 400;
+                }
+            }
+
+            .middle {
+                nav {
+                    ul {
+                        display: flex;
+                        gap: 40px;
+                        font-size: 18px;
+                        font-family: $primary-font;
+                        color: $primary-color;
+                    }
+                }
+            }
+            .right{
+                a{
+                    font-family: $primary-font;
+                    font-size: 18px;
+                    i{
+                        padding-right: 10px;
+                        color: $primary-color;
+                    }
+                }
+                .buton{
+                    padding: 5px 10px;
+                    background-color: #c0290f;
+                    padding-inline: 5px auto;
+                    border-radius: 50px;
+                    &:hover{
+                     border: none;
+                     padding: 5px 10px;
+                     background-color: transparent;
+                     color: #c0290f;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+    .left_detail {
+        .col-4 {
+            h1 {
+                max-width: 500px;
+                padding-bottom: 40px;
+                font-size: 60px;
+            }
+
+            p {
+                max-width: 300px;
+            }
+        }
+    }
+
+    .right_content {
+        background: rgba(14, 255, 26, 0.582);
+        padding: 5px 40px;
+        margin-right: 80px;
+        border-radius: 50px;
+        .col-4 {
+            img {
+                height: 400px;
+                width: 200px;
+            }
+        }
+
+    }
+}

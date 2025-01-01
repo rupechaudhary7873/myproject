@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 1200px;
+  padding: 20px 40px;
+}
+
+header {
+  background: rgb(83, 172, 126);
+  height: 600px;
+}
+header .top-header .navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+header .top-header .navigation-bar .left a {
+  font-size: 30px;
+  font-family: "Irish Grover", serif;
+  color: rgb(5, 78, 2);
+  font-weight: 400;
+}
+header .top-header .navigation-bar .middle nav ul {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-family: "Inter", serif;
+  color: rgb(5, 78, 2);
+}
+header .top-header .navigation-bar .right a {
+  font-family: "Inter", serif;
+  font-size: 18px;
+}
+header .top-header .navigation-bar .right a i {
+  padding-right: 10px;
+  color: rgb(5, 78, 2);
+}
+header .top-header .navigation-bar .right .buton {
+  padding: 5px 10px;
+  background-color: #c0290f;
+  padding-inline: 5px auto;
+  border-radius: 50px;
+}
+header .top-header .navigation-bar .right .buton:hover {
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #c0290f;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .left_detail .col-4 h1 {
+  max-width: 500px;
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+.banner .left_detail .col-4 p {
+  max-width: 300px;
+}
+.banner .right_content {
+  background: rgba(14, 255, 26, 0.582);
+  padding: 5px 40px;
+  margin-right: 80px;
+  border-radius: 50px;
+}
+.banner .right_content .col-4 img {
+  height: 400px;
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */

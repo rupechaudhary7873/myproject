@@ -15,8 +15,19 @@ img{
     width: 100%;
     object-fit: cover;
 }
+.margin-top{
+    margin-top: 100px;
+}
 .container{
     margin-inline: auto;
     max-width: 1200px;
     padding: 20px 40px;
+}
+.card{
+    margin-inline: 60px auto;
+    img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
 }

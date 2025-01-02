@@ -21,14 +21,28 @@ img {
      object-fit: cover;
 }
 
+.margin-top {
+  margin-top: 100px;
+}
+
 .container {
   margin-inline: auto;
   max-width: 1200px;
   padding: 20px 40px;
 }
 
+.card {
+  margin-inline: 60px auto;
+}
+.card img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 header {
-  background: rgb(83, 172, 126);
+  background: rgba(18, 248, 179, 0.877);
   height: 600px;
 }
 header .top-header .navigation-bar {
@@ -91,4 +105,20 @@ header .top-header .navigation-bar .right .buton:hover {
 .banner .right_content .col-4 img {
   height: 400px;
   width: 200px;
+}
+
+.details {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Inter", serif;
+  color: rgb(5, 78, 2);
+}
+.details h1 {
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.banner_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }/*# sourceMappingURL=style.css.map */

@@ -7,9 +7,135 @@
         padding-bottom: 10px;
         font-size: 50px;
     }
-
 }
 .banner_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    .card_details{
+        margin-bottom: 40px;
+        text-align: center;
+        .topic{
+            p{
+                font-size: 14px;
+                font-family: $primary-font;
+                margin-bottom: 5px;
+            }
+        }
+        .price{
+            span{
+            font-size: 12px;
+            font-family: $primary-color;
+            color: rgb(138, 135, 135);
+            }
+            i{
+                color: gold;
+            }
+        }
+    }
+    .see_all{
+        button{
+            position: absolute;
+            padding-inline: 50% auto;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: 0.5s;
+            padding: 5px 10px;
+            border: none;
+            background-color: gray;
+            &:hover{
+                padding: 5px 10px;
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+}
+
+}
+.box{
+    height: 400px;
+    background-color: rgba(18, 248, 179, 0.877);
+    .banner2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .img_content{
+            img{
+                height: 90%;
+                width: 400px;
+                object-fit: cover;
+            }
+        }
+        .details_content{
+            h2{
+                font-family: $primary-font;
+                font-size: 40px;
+                padding-bottom: 40px;
+                color: $primary-color;
+            }
+            p{
+                font-family: $primary-font;
+                font-size: 18px;
+                padding-bottom: 40px; 
+                color: $primary-color;
+            }
+            .boxes{
+                display: flex;
+                gap: 10px;
+                text-align: center;
+                .box_grid{
+                    height: 100px;
+                    width: 100px;
+                    background-color: wheat;
+                    h4{
+                        font-family: $primary-font;
+                        font-size: 18px;
+                        padding-top: 20px;
+                        color: $primary-color;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+        button{
+            align-items: center;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: $primary-color;
+            color: white;
+            box-shadow: 0 10px rgba(0, 0, 0, 0.514);
+            transition: 0.5s;
+            &:hover{
+                padding: 10px 20px;
+                background-color: white;
+                color: $primary-color;
+
+            }
+        }
+    }
+}
+
+.grid_banner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .card_details{
+        margin-bottom: 40px;
+        text-align: center;
+        .topic{
+            p{
+                font-size: 14px;
+                font-family: $primary-font;
+                margin-bottom: 5px;
+            }
+        }
+        .price{
+            span{
+            font-size: 12px;
+            font-family: $primary-color;
+            color: rgb(138, 135, 135);
+            }
+            i{
+                color: gold;
+            }
+        }
+}
 }

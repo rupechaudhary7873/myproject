@@ -41,6 +41,7 @@ header {
                     background-color: #c0290f;
                     padding-inline: 5px auto;
                     border-radius: 50px;
+                    transition: 0.5s;
                     &:hover{
                      border: none;
                      padding: 5px 10px;
@@ -69,6 +70,21 @@ header {
 
             p {
                 max-width: 300px;
+                padding-bottom: 40px;
+            }
+            button{
+                padding: 10px 20px;
+                border: none;
+                background-color: $primary-color;
+                color: white;
+                box-shadow: 0 10px rgba(0, 0, 0, 0.514);
+                transition: 0.5s;
+                &:hover{
+                    padding: 10px 20px;
+                    background-color: white;
+                    color: $primary-color;
+
+                }
             }
         }
     }
@@ -80,7 +96,6 @@ header {
         border-radius: 50px;
         .col-4 {
             img {
-                height: 400px;
                 width: 200px;
             }
         }

@@ -139,3 +139,107 @@
         }
 }
 }
+.feed_grid{
+    display: flex;
+    gap: 40px;
+    .feed{
+        max-width: 800px;
+        span{
+            font-size: 20px;
+            font-family: $primary-font;
+            color: $primary-color;
+        }
+        h3{
+            font-size: 16px;
+            font-family: $primary-font;
+            color: $primary-color;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+            font-family: $primary-font;
+            color: $primary-color;
+        }
+    }
+}
+.fotter{
+    background-color: $primary-color;
+    height: 250px;
+.footer-container{
+    margin-inline: auto;
+    max-width: 1200px;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    .left{
+        h2{
+            color: white;
+            padding-bottom: 20px;
+        }
+        p{
+            color: white;
+            padding-bottom: 5px;
+        }
+        i{
+            color: rgb(196, 188, 188);
+            font-size: 18px;
+        }
+    }
+    .md-left{
+        nav{
+        ul{
+            p{
+                color: white;
+                text-transform: uppercase;
+                padding-bottom: 5px;
+            }
+            li{
+            color:rgb(196, 188, 188);
+            padding-bottom: 10px;
+            }
+        }
+        }
+    }
+    .md-right{
+        nav{
+        ul{
+            p{
+                color: white;
+                text-transform: uppercase;
+                padding-bottom: 5px;
+            }
+            li{
+            color:rgb(196, 188, 188);
+            padding-bottom: 10px;
+            }
+        }
+        }
+    }
+    .right{
+        p{
+            color: white;
+            padding-bottom: 20px;
+        }
+        input::before placeholder{
+            content: "";
+            background-color: $primary-color;
+        }
+    }
+    }
+    .last{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        color: white;
+        &::before{
+            content: "";
+            height: 1px;
+            width: 70%;
+            padding: 1px 5px;
+            background-color: white;
+            margin-top: 8px;
+        }
+    }
+    
+ }
+

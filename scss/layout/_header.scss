@@ -38,15 +38,16 @@ header {
                 }
                 .buton{
                     padding: 5px 10px;
-                    background-color: #c0290f;
+                    background-color: $primary-color;
                     padding-inline: 5px auto;
                     border-radius: 50px;
                     transition: 0.5s;
+                    color: greenyellow;
                     &:hover{
                      border: none;
                      padding: 5px 10px;
                      background-color: transparent;
-                     color: #c0290f;
+                     color: $primary-color;
                     }
                 }
             }

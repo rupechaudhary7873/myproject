@@ -1,39 +1,46 @@
-.details{
+.details {
     text-align: center;
     margin-top: 20px;
     font-family: $primary-font;
     color: $primary-color;
-    h1{
+
+    h1 {
         padding-bottom: 10px;
         font-size: 50px;
     }
 }
-.banner_grid{
+
+.banner_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    .card_details{
+
+    .card_details {
         margin-bottom: 40px;
         text-align: center;
-        .topic{
-            p{
+
+        .topic {
+            p {
                 font-size: 14px;
                 font-family: $primary-font;
                 margin-bottom: 5px;
             }
         }
-        .price{
-            span{
-            font-size: 12px;
-            font-family: $primary-color;
-            color: rgb(138, 135, 135);
+
+        .price {
+            span {
+                font-size: 12px;
+                font-family: $primary-color;
+                color: rgb(138, 135, 135);
             }
-            i{
+
+            i {
                 color: gold;
             }
         }
     }
-    .see_all{
-        button{
+
+    .see_all {
+        button {
             position: absolute;
             padding-inline: 50% auto;
             left: 50%;
@@ -42,50 +49,59 @@
             padding: 5px 10px;
             border: none;
             background-color: gray;
-            &:hover{
+
+            &:hover {
                 padding: 5px 10px;
                 background-color: $primary-color;
                 color: white;
             }
         }
-}
+    }
 
 }
-.box{
+
+.box {
     height: 400px;
     background-color: rgba(18, 248, 179, 0.877);
-    .banner2{
+
+    .banner2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        .img_content{
-            img{
+
+        .img_content {
+            img {
                 height: 90%;
                 width: 400px;
                 object-fit: cover;
             }
         }
-        .details_content{
-            h2{
+
+        .details_content {
+            h2 {
                 font-family: $primary-font;
                 font-size: 40px;
                 padding-bottom: 40px;
                 color: $primary-color;
             }
-            p{
+
+            p {
                 font-family: $primary-font;
                 font-size: 18px;
-                padding-bottom: 40px; 
+                padding-bottom: 40px;
                 color: $primary-color;
             }
-            .boxes{
+
+            .boxes {
                 display: flex;
                 gap: 10px;
                 text-align: center;
-                .box_grid{
+
+                .box_grid {
                     height: 100px;
                     width: 100px;
                     background-color: wheat;
-                    h4{
+
+                    h4 {
                         font-family: $primary-font;
                         font-size: 18px;
                         padding-top: 20px;
@@ -95,7 +111,8 @@
                 }
             }
         }
-        button{
+
+        button {
             align-items: center;
             margin-top: 20px;
             padding: 10px 20px;
@@ -104,7 +121,8 @@
             color: white;
             box-shadow: 0 10px rgba(0, 0, 0, 0.514);
             transition: 0.5s;
-            &:hover{
+
+            &:hover {
                 padding: 10px 20px;
                 background-color: white;
                 color: $primary-color;
@@ -114,124 +132,168 @@
     }
 }
 
-.grid_banner{
+.grid_banner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    .card_details{
+
+    .card_details {
         margin-bottom: 40px;
         text-align: center;
-        .topic{
-            p{
+
+        .topic {
+            p {
                 font-size: 14px;
                 font-family: $primary-font;
                 margin-bottom: 5px;
             }
         }
-        .price{
-            span{
-            font-size: 12px;
-            font-family: $primary-color;
-            color: rgb(138, 135, 135);
+
+        .price {
+            span {
+                font-size: 12px;
+                font-family: $primary-color;
+                color: rgb(138, 135, 135);
             }
-            i{
+
+            i {
                 color: gold;
             }
         }
+    }
 }
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    i {
+        font-size: 20px;
+        color: $primary-color;
+        padding: 20px;
+        background-color: gray;
+    }
 }
-.feed_grid{
+
+.feed_grid {
     display: flex;
     gap: 40px;
-    .feed{
+
+    .feed {
         max-width: 800px;
-        span{
+
+        span {
             font-size: 20px;
             font-family: $primary-font;
             color: $primary-color;
         }
-        h3{
+
+        h3 {
             font-size: 16px;
             font-family: $primary-font;
             color: $primary-color;
             margin-bottom: 10px;
         }
-        p{
+
+        p {
             font-size: 14px;
             font-family: $primary-font;
             color: $primary-color;
         }
     }
 }
-.fotter{
+
+.fotter {
     background-color: $primary-color;
     height: 250px;
-.footer-container{
-    margin-inline: auto;
-    max-width: 1200px;
-    padding: 40px 40px;
-    display: flex;
-    justify-content: space-between;
-    .left{
-        h2{
-            color: white;
-            padding-bottom: 20px;
-        }
-        p{
-            color: white;
-            padding-bottom: 5px;
-        }
-        i{
-            color: rgb(196, 188, 188);
-            font-size: 18px;
-        }
-    }
-    .md-left{
-        nav{
-        ul{
-            p{
+
+    .footer-container {
+        margin-inline: auto;
+        max-width: 1200px;
+        padding: 40px 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            h2 {
                 color: white;
-                text-transform: uppercase;
+                padding-bottom: 20px;
+            }
+
+            p {
+                color: white;
                 padding-bottom: 5px;
             }
-            li{
-            color:rgb(196, 188, 188);
-            padding-bottom: 10px;
+
+            i {
+                color: rgb(196, 188, 188);
+                font-size: 18px;
             }
         }
+
+        .md-left {
+            nav {
+                ul {
+                    p {
+                        color: white;
+                        text-transform: uppercase;
+                        padding-bottom: 5px;
+                    }
+
+                    li {
+                        color: rgb(196, 188, 188);
+                        padding-bottom: 10px;
+                    }
+                }
+            }
         }
-    }
-    .md-right{
-        nav{
-        ul{
-            p{
+
+        .md-right {
+            nav {
+                ul {
+                    p {
+                        color: white;
+                        text-transform: uppercase;
+                        padding-bottom: 5px;
+                    }
+
+                    li {
+                        color: rgb(196, 188, 188);
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            p {
                 color: white;
-                text-transform: uppercase;
-                padding-bottom: 5px;
+                padding-bottom: 20px;
             }
-            li{
-            color:rgb(196, 188, 188);
-            padding-bottom: 10px;
+            input{
+                border: 1px solid greenyellow;
+                padding: 5px;
+            }
+            input::placeholder {
+                content: "";
+                background-color: $primary-color;
+                padding: 5px;
+            }
+            button{
+                border: 1px solid greenyellow;
+                background-color: green;
+                padding: 5px;
             }
         }
-        }
     }
-    .right{
-        p{
-            color: white;
-            padding-bottom: 20px;
-        }
-        input::before placeholder{
-            content: "";
-            background-color: $primary-color;
-        }
-    }
-    }
-    .last{
+
+    .last {
         display: flex;
         gap: 20px;
         justify-content: center;
         color: white;
-        &::before{
+
+        &::before {
             content: "";
             height: 1px;
             width: 70%;
@@ -240,6 +302,5 @@
             margin-top: 8px;
         }
     }
-    
- }
 
+}

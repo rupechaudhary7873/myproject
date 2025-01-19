@@ -74,16 +74,17 @@ header .top-header .navigation-bar .right a i {
 }
 header .top-header .navigation-bar .right .buton {
   padding: 5px 10px;
-  background-color: #c0290f;
+  background-color: rgb(5, 78, 2);
   padding-inline: 5px auto;
   border-radius: 50px;
   transition: 0.5s;
+  color: greenyellow;
 }
 header .top-header .navigation-bar .right .buton:hover {
   border: none;
   padding: 5px 10px;
   background-color: transparent;
-  color: #c0290f;
+  color: rgb(5, 78, 2);
 }
 
 .banner {
@@ -251,6 +252,18 @@ header .top-header .navigation-bar .right .buton:hover {
   color: gold;
 }
 
+.arrow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.arrow i {
+  font-size: 20px;
+  color: rgb(5, 78, 2);
+  padding: 20px;
+  background-color: gray;
+}
+
 .feed_grid {
   display: flex;
   gap: 40px;
@@ -320,9 +333,24 @@ header .top-header .navigation-bar .right .buton:hover {
   color: white;
   padding-bottom: 20px;
 }
-.fotter .footer-container .right input::before placeholder {
+.fotter .footer-container .right input {
+  border: 1px solid greenyellow;
+  padding: 5px;
+}
+.fotter .footer-container .right input::-moz-placeholder {
   content: "";
   background-color: rgb(5, 78, 2);
+  padding: 5px;
+}
+.fotter .footer-container .right input::placeholder {
+  content: "";
+  background-color: rgb(5, 78, 2);
+  padding: 5px;
+}
+.fotter .footer-container .right button {
+  border: 1px solid greenyellow;
+  background-color: green;
+  padding: 5px;
 }
 .fotter .last {
   display: flex;
